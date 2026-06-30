@@ -1,6 +1,6 @@
 {
   "ical_urls": [
-    "https://calendar.google.com/calendar/ical/YOUR_CALENDAR_SECRET/basic.ics"
+    "input_ical_urls"
   ],
   "timezone": "Asia/Seoul",
   "refresh_minutes": 30,
