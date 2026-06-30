@@ -43,13 +43,13 @@ python -m pip install tzdata
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.3 트리거 메뉴로 넘어가서 새로만들기를 눌러주십시오.
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30 212122.png" width="450" height="450"/> 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20212201.png" width="450" height="450"/> 
 </br>
 </br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 작업시작을 `로그온 할떄`, 지연시간에 체크해 주시고 30초 로 체크해 주십시오
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30 212122.png" width="450" height="450"/> 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20212231.png" width="450" height="450"/> 
 </br>
 </br>
 
@@ -95,7 +95,7 @@ python -m pip install tzdata
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 작업시작을 `로그온 할떄`, 지연시간에 체크해 주시고 30초 로 체크해 주십시오
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30 212122.png" width="450" height="450"/> 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20212231.png" width="450" height="450"/> 
 </br>
 </br>
 
@@ -105,17 +105,12 @@ python -m pip install tzdata
 <br>
 </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.4 작업시작을 `로그온 할떄`, 지연시간에 체크해 주시고 30초 로 체크해 주십시오
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30 212122.png" width="450" height="450"/> 
-</br>
-</br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.7 `프로그램`에 exe 파일의 경로를 입력하여 주십시오. 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;3.8 `인수 추가` 에 다음과 같이 입력하여 주십시오 `"C:\Users\~ google_calendar_on_desktop.exe 를 놓은 폴더 경로 주소 ~ \google_calendar_on_desktop.exe"`
 </br>&nbsp;&nbsp;&nbsp;&nbsp;3.9 `시작 위치` 에 다음과 같이 입력하여 주십시오  `C:\Users\~ google_calendar_on_desktop.exe 를 놓은 폴더 경로 주소 ~`
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20212838.png" width="450" height="450"/> 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20224842.png" width="450" height="450"/> 
 <br>
 </br>
 
