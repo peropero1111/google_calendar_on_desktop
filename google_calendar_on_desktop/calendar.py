@@ -224,7 +224,7 @@ def fetch_month_events(ical_urls: list[str], month_start: date, tz) -> list[Cale
         from icalendar import Calendar
     except ImportError as exc:
         raise RuntimeError(
-            "필요한 패키지가 없습니다. 먼저 `python -m pip install -r requirements.txt`를 실행하세요."
+            "필요한 패키지가 없습니다. 먼저 `python -m pip install requests, python -m pip install icalendar, python -m pip install recurring-ical-events, python -m pip install tzdata`를 실행하세요."
         ) from exc
 
     period_start, period_end = month_range(month_start, tz)
