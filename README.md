@@ -21,11 +21,11 @@ python -m pip install tzdata
 
 ## 2. Google Calendar 연결
 
-1. 브라우저에서 Google Calendar를 엽니다.
-2. 오른쪽 위 톱니바퀴 아이콘에서 `설정`으로 들어갑니다.
-3. 왼쪽에서 `내 캘린더의 설정`을 선택한 후 선택할 계정을 고릅니다.
-4. `캘린더 통합` 을 선택한 후 암호화 형식인 `iCal 형식의 비공개 주소`를 복사합니다.
-5. calendar.py를 처음 실행하면 생기는 `calendar_widget_config.json` 파일을 열고 `input_ical_urls`에 붙여 넣습니다.
+&nbsp;&nbsp;&nbsp;&nbsp;2.1. 브라우저에서 Google Calendar를 엽니다.  
+&nbsp;&nbsp;&nbsp;&nbsp;2.2. 오른쪽 위 톱니바퀴 아이콘에서 `설정`으로 들어갑니다.  
+&nbsp;&nbsp;&nbsp;&nbsp;2.3. 왼쪽에서 `내 캘린더의 설정`을 선택한 후 선택할 계정을 고릅니다.  
+&nbsp;&nbsp;&nbsp;&nbsp;2.4. `캘린더 통합` 을 선택한 후 암호화 형식인 `iCal 형식의 비공개 주소`를 복사합니다.  
+&nbsp;&nbsp;&nbsp;&nbsp;2.5. calendar.py를 처음 실행하면 생기는 `calendar_widget_config.json` 파일을 열고 `input_ical_urls`에 붙여 넣습니다.
 
 </br>
 
@@ -76,39 +76,39 @@ python -m pip install tzdata
 
 ## 4. 작업스케쥴러 등록 (선택사항) (exe 버젼) 
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.1 작업스케줄러를 실행시킨후 작업만들기를 클릭하여 주십시오.
+&nbsp;&nbsp;&nbsp;&nbsp;4.1 작업스케줄러를 실행시킨후 작업만들기를 클릭하여 주십시오.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20212029.png" width="450" height="450"/>  
 </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.2 처음뜨는 창 (일반 메뉴) 에서 이름을 정해 주시고 `사용자가 로그온 할때만 실행` 으로 설정해 주십시오.
+&nbsp;&nbsp;&nbsp;&nbsp;4.2 처음뜨는 창 (일반 메뉴) 에서 이름을 정해 주시고 `사용자가 로그온 할때만 실행` 으로 설정해 주십시오.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30 212122.png" width="450" height="450"/> 
 </br>
 </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.3 트리거 메뉴로 넘어가서 새로만들기를 눌러주십시오.
+&nbsp;&nbsp;&nbsp;&nbsp;4.3 트리거 메뉴로 넘어가서 새로만들기를 눌러주십시오.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30 212201.png" width="450" height="450"/> 
 </br>
 </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.4 작업시작을 `로그온 할떄`, 지연시간에 체크해 주시고 30초 로 체크해 주십시오
+&nbsp;&nbsp;&nbsp;&nbsp;4.4 작업시작을 `로그온 할떄`, 지연시간에 체크해 주시고 30초 로 체크해 주십시오
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20212231.png" width="450" height="450"/> 
 </br>
 </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.6 동작 메뉴로 넘어가서 새로만들기를 눌러 주십시오.
+&nbsp;&nbsp;&nbsp;&nbsp;4.6 동작 메뉴로 넘어가서 새로만들기를 눌러 주십시오.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20212311.png" width="450" height="450"/> 
 <br>
 </br>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.7 `프로그램`에 exe 파일의 경로를 입력하여 주십시오. 
-</br>&nbsp;&nbsp;&nbsp;&nbsp;3.8 `인수 추가` 에 다음과 같이 입력하여 주십시오 `"C:\Users\~ google_calendar_on_desktop.exe 를 놓은 폴더 경로 주소 ~ \google_calendar_on_desktop.exe"`
-</br>&nbsp;&nbsp;&nbsp;&nbsp;3.9 `시작 위치` 에 다음과 같이 입력하여 주십시오  `C:\Users\~ google_calendar_on_desktop.exe 를 놓은 폴더 경로 주소 ~`
+&nbsp;&nbsp;&nbsp;&nbsp;4.7 `프로그램`에 exe 파일의 경로를 입력하여 주십시오. 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;4.8 `인수 추가` 에 다음과 같이 입력하여 주십시오 `"C:\Users\~ google_calendar_on_desktop.exe 를 놓은 폴더 경로 주소 ~ \google_calendar_on_desktop.exe"`
+</br>&nbsp;&nbsp;&nbsp;&nbsp;4.9 `시작 위치` 에 다음과 같이 입력하여 주십시오  `C:\Users\~ google_calendar_on_desktop.exe 를 놓은 폴더 경로 주소 ~`
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-06-30%20224842.png" width="450" height="450"/> 
 <br>
