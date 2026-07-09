@@ -1,5 +1,9 @@
 # google_calendar_on_desktop
-[exe 파일링크](https://drive.google.com/drive/folders/1IbY2NH5m0-zS1GZNa5uw_mFJOuiKGH03?usp=sharing)로 실행할때의 사용법은 글 하단에 있습니다.
+
+### 이 google_calendar_on_desktop 은 codex 의 도움이 들어갔습니다.  
+</br>
+
+[exe 파일링크](https://drive.google.com/drive/folders/1IbY2NH5m0-zS1GZNa5uw_mFJOuiKGH03?usp=sharing) 로 실행할때의 사용법은 글 하단에 있습니다.
 </br>
 </br>
 사용하시기전에 다음 절차를 따라 주십시오.
