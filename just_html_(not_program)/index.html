@@ -1,1 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: flex;
+            flex-direction: column;  /* 위아래로 배치 */
+            /*justify-content: center; 세로 방향 가운데 정렬 */
+            align-items: center;     /* 가로 방향 가운데 정렬 */
+            height: 100vh;           /* 화면 전체 높이 사용 */
+            text-align: center;
+        }
 
+        /* 첫 번째 문장 스타일 */
+        .title-text {
+            font-size: xx-large;
+            font-style: italic;
+            font-weight: bold;
+            color: #1f2933;
+            
+            margin-bottom: 24px; 
+        }
+
+        /* 두 번째 문장 스타일  */
+        .sub-text {
+            font-size: large;       /* 제목보다 조금 작게 */
+            font-style: normal;     /* 이탤릭체 해제 */
+            color: #243242;         /* 부드러운 회색 */
+        }
+
+
+        .sub-sub-text {
+            font-size: larger;       /* 제목보다 조금 작게 */
+            font-weight: bolder;
+            color: #243242;         /* 부드러운 회색 */
+            font-style:italic;
+        }
+
+
+        .sub-sub-sub-text {
+            font-size: larger;       /* 제목보다 조금 작게 */
+            color: #243242;         /* 부드러운 회색 */
+            font-style:normal;
+            font-weight: 400;
+        }
+
+
+
+
+
+
+
+
+
+        /* 기본 화이트모드 */
+    body {
+    background-color: #ffffff;
+    color: #222222;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* 다크모드 */
+    body.dark-mode {
+    background-color: #121212;
+    color: #eeeeee;
+    }
+
+    /* 다크모드 안의 박스들 */
+    body.dark-mode div,
+    body.dark-mode section,
+    body.dark-mode article,
+    body.dark-mode header,
+    body.dark-mode footer,
+    body.dark-mode main,
+    body.dark-mode nav {
+    background-color: #1e1e1e;
+    color: #eeeeee;
+    }
+
+    /* 링크 */
+    body.dark-mode a {
+    color: #8ab4ff;
+    }
+
+    /* 버튼 */
+    button {
+    background-color: #eeeeee;
+    color: #222222;
+    border: 1px solid #cccccc;
+    padding: 8px 14px;
+    cursor: pointer;
+    }
+
+    body.dark-mode button {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+    }
+
+    /* input, textarea */
+    body.dark-mode input,
+    body.dark-mode textarea,
+    body.dark-mode select {
+    background-color: #222222;
+    color: #ffffff;
+    border: 1px solid #555555;
+    }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="title-text">google_calendar_on_desktop 사용법</div>
+        <div class="sub-text">먼저 이 프로그램을 설치 하여주셔서 감사드립니다.</div>
+        <br>
+
+        <div class="sub-text">아직 설치하지 않으셨다면,
+          <a href="https://github.com/peropero1111/google_calendar_on_desktop/tree/main" target="_blank">아래 링크에서</a>
+
+        py 또는 exe 파일을 다운로드해 주세요. 설치 후에는 필수 2번까지, 필요 시 4번까지 진행해 주세요.</div>
+        <br>
+        <div class="sub-text">4번까지 하실분들은 작업스케쥴러로 항상 띄워놔야 하니 용량이 큰 exe 파일보단 아무래도 용량이 작은 py 파일을 추천드립니다.</div>
+        <br>
+        <div class="sub-sub-sub-text">그리고 눈 건강을 위해서  
+        <button id="themeToggle">다크모드</button>
+        버튼이 있습니다.</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="sub-sub-text"> google_calendar_on_desktop 의 기능 소개</div>
+        <br>
+        <br>
+        <div class="sub-sub-text">다가오는 일정 표시</div>
+        <div class="sub-sub-sub-text">1. 만약 일정이 (google calendar 에서 등록 된 일정이) 일주일 내에 있다면<span style="color: red;"> 붉게 표시</span> 됩니다.</div>
+        <br>
+        <img id="Image" src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/site/2026-07-11%20143401.png?raw=true" width="350" height="350" alt="Image">
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="sub-sub-text">일정 알림</div>
+        <div class="sub-sub-sub-text">2. 만약 당일 일정이 30분 남았을 경우엔 우측 하단에 토스트 알림을 띄워줍니다.</div>
+        <br>
+        <img id="Image" src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/site/2026-07-11%20112150.png?raw=true" width="350" height="350" alt="Image">
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="sub-sub-text">민감 일정 숨김</div>
+        <div class="sub-sub-sub-text">3-1.<span style="color: red;"> 오른쪽위의</span> 선택 버튼을 클릭 하신다음</div>
+        <br>
+        <img id="Image" src="https://github.com/peropero1111/google_calendar_on_desktop/raw/main/img/2026-07-03%20181439.png" width="350" height="350" alt="Image">
+        <br>
+        <br>
+        <div class="sub-sub-sub-text">3-2. 숨기고 싶은 일정을 클릭하시고</div>
+        <br>
+        <img id="Image" src="https://github.com/peropero1111/google_calendar_on_desktop/raw/main/img/2026-07-03%20181547.png" width="350" height="350" alt="Image">
+        <br>
+        <br>
+        <div class="sub-sub-sub-text">3-3. <span style="color: red;">완료</span> 버튼을 누르시면 선택하셨던 일정이 <span style="color: red;">유저가 해제처리하기 전까지</span> 숨김처리 됩니다.</div>
+        <br>
+        <img id="Image" src="https://github.com/peropero1111/google_calendar_on_desktop/raw/main/img/2026-07-03%20181643.png" width="350" height="350" alt="Image">
+        <br>
+        <br>
+        <div class="sub-sub-sub-text">숨김해제하는 방법은 <span style="color: red;">숨김처리 하는 방법과 같으므로</span> 설명은 생략하겠습니다.</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>　</div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+    <script>
+  const themeToggle = document.getElementById("themeToggle");
+
+  // 페이지를 열 때 저장된 설정 불러오기
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+    themeToggle.textContent = "화이트모드";
+  } else {
+    document.body.classList.remove("dark-mode");
+    themeToggle.textContent = "다크모드";
+  }
+
+  // 버튼 클릭 시 다크/화이트 전환 + 저장
+  themeToggle.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("theme", "dark");
+      themeToggle.textContent = "화이트모드";
+    } else {
+      localStorage.setItem("theme", "light");
+      themeToggle.textContent = "다크모드";
+    }
+  });
+</script>
+</html>
