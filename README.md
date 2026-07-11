@@ -3,6 +3,9 @@
 ### 이 google_calendar_on_desktop 은 codex 의 도움이 들어갔습니다.  
 </br>
 
+다운로드 하신 후에는 [해당 사이트](https://google-calendar-on-desktop.netlify.app/)를 참고 하시면 더욱 자세한 기능을 확인 할 수 있습니다.
+</br>
+</br>
 [exe 파일링크](https://drive.google.com/drive/folders/1IbY2NH5m0-zS1GZNa5uw_mFJOuiKGH03?usp=sharing) 로 실행할때의 사용법은 글 하단에 있습니다.
 </br>
 </br>
