@@ -119,27 +119,3 @@ python -m pip install winotify
 <br>
 </br>
 
-## 5. 기타 사용법 
-
-&nbsp;&nbsp;&nbsp;&nbsp;프로그램 실행후 `오른쪽 위의` 선택 버튼을 누른 후
-</br>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-07-03%20181439.png" width="450" height="450"/> 
-
-&nbsp;&nbsp;&nbsp;&nbsp;숨기고 싶은 일정을 선택한 다음
-</br>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-07-03%20181547.png" width="450" height="450"/> 
-
-&nbsp;&nbsp;&nbsp;&nbsp;`완료` 버튼을 누르면 선택하였던 일정이 유저가 `해제처리 하기전까지` 숨김처리 됩니다.
-</br>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-07-03%20181643.png" width="450" height="450"/> 
-</br>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/google_calendar_on_desktop/blob/main/img/2026-07-03%20181610.png" width="450" height="450"/> 
-</br>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp;해제처리하는 방법은 일정을 `숨김처리 하는 방법과 같으므로` 설명은 생략하겠습니다.
-
-
