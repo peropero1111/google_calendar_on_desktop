@@ -20,6 +20,7 @@ python -m pip install requests
 python -m pip install icalendar
 python -m pip install recurring-ical-events
 python -m pip install tzdata
+python -m pip install winotify
 ```
 </br>
 
